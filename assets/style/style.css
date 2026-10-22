@@ -59,7 +59,7 @@ section {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -67,7 +67,7 @@ section {
     width: 100%;
     height: auto;
     border: 1px solid gray;
-    margin-bottom: 1rem;
+    margin: 0 0.5rem 0.5rem 0rem;
     padding: 0.25rem;
     background-color: white;
 }
